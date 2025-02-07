@@ -20,7 +20,7 @@ spark = SparkSession.builder \
     # .config("spark.hadoop.fs.s3a.committer.staging.conflict-mode", "fail") \
     # .config("spark.hadoop.fs.s3a.committer.staging.tmp.path", "s3a://outputs/tmp/") \
 
-
+print('hi')
 #file_path = "shared/s.csv"  # Replace with the actual file path
 #df = spark.read.csv(file_path, header=True, inferSchema=True)
 print('hi')
